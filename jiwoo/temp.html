@@ -1,0 +1,318 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+
+  body {
+    background-color: #dfe7ed;
+    margin: 0;
+  }
+
+  #root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  #top > a {
+    opacity: 0.7;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  #top > div {
+    font-size: 42px;
+    margin: 0 20px;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 40px;
+    row-gap: 30px;
+    padding: 30px 50px;
+  }
+
+  #container > div {
+    background-color: white;
+    height: 280px;
+    opacity: 0.7;
+    transition: 1s;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 10px;
+  }
+
+  #container > div:hover {
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  #container > div > .title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #container > div > .back {
+    z-index: 999;
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .content {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+    text-align: start;
+    
+    left: 50%;
+    top: 50%;
+    width: 50vw;
+    padding: 20px;
+    font-size: 32px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 10px;
+  }
+
+</style>
+
+</head>
+<body>
+  
+
+<div id="root">
+
+  <div id="top">
+
+    <a href="">실기 1</a>
+    <div>필기</div>
+    <a href="">실기 2</a>
+
+  </div>
+  
+  <div id="container">
+
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="title"> 1번 개념 </div>
+      <div class="back">
+        <div class="content">
+          
+          1번 개념에 대한 설명 이것저것 뭐시기 저시기...
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+<script>
+
+  [...document.querySelectorAll("#container > div")].forEach(el => {
+    el.addEventListener('click', (evt) => {
+      if(evt.target.className !== '') return;
+      evt.target.children[1].style.display = "block";
+      evt.target.children[1].children[0].style.display = "block";
+    })
+  });
+
+  [...document.querySelectorAll(".back")].forEach(el => {
+    el.addEventListener('click', (evt) => {
+      if(evt.target.className !== 'back') return;
+      evt.target.style.display = "none";
+      evt.target.children[0].style.display = "none";
+    })
+  })
+
+</script>
+
+</body>
+</html>
